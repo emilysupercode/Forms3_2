@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* assets
+#51BB70
+#68F33D
+
+*/
+
+/* universal styling */
+
+
+div.surround {
+    width: 30%;
+    background-color: black;
+    height: 375px;
+    margin: 10% auto;
+}
+
+/* universal header */
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1vh 1vw;
+}
+
+header p {
+    background-color: #000;
+    padding: 1vh 3vw;
+}
+
+header p:hover {
+    background-color: #51BB70;
+}
+
+header p:active {
+    background-color: #68F33D;
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* universal main */
+
+main {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 5% auto;
+}
+
+input {
+    background-color: black;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+div.name {
+    display: flex;
+
+}
+
+div.name input[type=text] {
+    width: 48%;
+}
+
+div.name input[type=text]:nth-of-type(1) {
+    margin: 5% 1% 5% 2%;
+}
+
+div.name input[type=text]:nth-of-type(2) {
+    margin: 5% 2% 5% 1%;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+    width: 96%;
+    margin: 5% 2%;
+}
+
+form input[type="submit"] {
+    background-color: #51BB70;
+    color: white;
+    padding: 1vh 3vw;
+    cursor: grab;
+}
+
+/* welcome back only */
+
+form p {
+    text-align: right;
+    padding-right: 2%;
+    margin-top: 10%;
+}
+
+form p a {
+    color: #51BB70;
+}
